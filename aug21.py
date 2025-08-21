@@ -8,7 +8,7 @@ def calculate_apple_order():
 
     order = apple_buying * price
 
-    print(f"Your order of {apple_buying} apples will cost ${order.2f}")
+    print(f"Your order of {apple_buying} apples will cost ${order:.2f}.")
 
 calculate_apple_order()
 
